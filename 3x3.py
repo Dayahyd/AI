@@ -2,6 +2,7 @@ import tensorflow as tf
 import numpy as np
 
 
+
 # Create two 3x3 matrices using tf.constant
 matrix_a = tf.constant([[1, 2, 3],
                         [4, 5, 6],
