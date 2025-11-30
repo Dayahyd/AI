@@ -1,5 +1,4 @@
-1. Import necessary libraries
-python
+1. Import necessary libraries python
 import pandas as pd
 import Numphy as num
 from sklearn.model_selection import train_test_split
