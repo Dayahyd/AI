@@ -1,3 +1,6 @@
 
 
 Prompt engineering is the art and science of structuring, designing, and optimizing input text (prompts) to guide Large Language Models (LLMs) toward producing accurate, relevant, and high-quality outputs. By providing clear instructions, context, and examples, users can overcome non-deterministic behavior, reduce hallucinations, and improve the consistency of AI-generated content. 
+
+
+ROLE + TASK + CONTEXT + FORMAT + CONSTRAINTS
