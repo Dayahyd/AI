@@ -1,6 +1,5 @@
 #calculate determinant of 3x3 matrix using tensorflow and assign the variable determinant value for evaluation of test cases
 
-
 import tensorflow as tf
 import numpy as np
 
