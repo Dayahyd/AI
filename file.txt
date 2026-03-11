@@ -1,0 +1,184 @@
+skills required for an AI / LLM / Agent Developer role. I’ll explain each line in simple terms so you understand what companies expect. 🚀
+
+1️⃣ Evaluation metrics for agent responses
+
+This means measuring how good an AI agent’s answers are.
+
+Common metrics:
+
+Accuracy → Is the answer correct?
+
+Recall → Did the AI retrieve all relevant information?
+
+Contextual coherence → Does the answer make sense with the conversation?
+
+Example:
+If a user asks “What is Kubernetes?”, the AI should give a correct and relevant answer.
+
+2️⃣ Experience in Machine Learning, NLP, and LLM fine-tuning
+
+They expect strong knowledge in:
+
+Machine Learning (ML) → algorithms that learn from data
+
+NLP (Natural Language Processing) → computers understanding human language
+
+LLM fine-tuning → training large AI models on specific data
+
+Example:
+Customizing a chatbot for banking or healthcare.
+
+3️⃣ Experience with Google AI stack
+
+These are tools from Google used to build AI applications.
+
+Important tools mentioned:
+
+Gemini Models
+Google's large language models (similar to GPT).
+
+Vertex AI
+Platform to train, deploy, and manage AI models.
+
+ADK (Agent Development Kit)
+Toolkit for building AI agents.
+
+Agent Builder
+Used to create AI assistants and chatbots.
+
+4️⃣ Programming languages
+
+They expect coding skills in:
+
+Python 🐍 (most common in AI)
+
+TypeScript
+
+Go
+
+Python is the most important for AI development.
+
+5️⃣ RAG pipelines
+
+RAG means Retrieval Augmented Generation.
+
+This technique improves AI answers by retrieving real data from databases before generating a response.
+
+Example:
+
+User asks question
+
+System searches knowledge base
+
+AI generates answer from that data
+
+Used in enterprise AI chatbots.
+
+6️⃣ Vector databases
+
+Vector databases store embeddings (AI numerical representations of text).
+
+Examples mentioned:
+
+Pinecone
+
+FAISS
+
+BigQuery Vector Search
+
+Used for:
+
+semantic search
+
+document retrieval
+
+RAG systems
+
+7️⃣ Multi-agent orchestration
+
+This means multiple AI agents working together.
+
+Example system:
+
+Agent 1 → Research
+Agent 2 → Write answer
+Agent 3 → Verify information
+
+Tools used:
+
+LangChain
+
+LlamaIndex
+
+Google ADK
+
+8️⃣ MCP (Multi-Context Protocol)
+
+MCP allows AI systems to connect to multiple tools and contexts.
+
+Example:
+
+AI connects to
+
+database
+
+APIs
+
+documents
+
+applications
+
+Then combines all information.
+
+9️⃣ Agents-at-Agents collaboration
+
+This means AI agents interacting with other AI agents.
+
+Example workflow:
+
+User → Agent Manager → Research Agent → Data Agent → Response Agent
+
+Used in advanced AI systems.
+
+🔟 Prompt engineering & evaluation frameworks
+
+Important AI skill.
+
+Prompt engineering = writing instructions for AI.
+
+Example prompt:
+
+You are a financial expert.
+Explain investment strategies in simple terms.
+
+Evaluation frameworks test:
+
+response quality
+
+hallucinations
+
+accuracy
+
+📊 What this job really is
+
+This role is basically:
+
+AI Agent Engineer / LLM Engineer
+
+Skills required:
+
+Python
+
+LLMs
+
+RAG
+
+Vector databases
+
+AI agents
+
+Prompt engineering
+
+LangChain
+
+Cloud AI platforms
