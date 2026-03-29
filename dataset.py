@@ -57,6 +57,7 @@ Use code with caution.
 
 model = LogisticRegression(): Creates an instance of the LogisticRegression model, which is suitable for binary classification problems like this one.
 model.fit(X_train, y_train): Trains the model using the training data. The model learns the relationship between the features (X_train) and the target variable (y_train). 
+
 6. Make predictions and evaluate accuracy
 python
 y_pred = model.predict(X_test)
