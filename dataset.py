@@ -37,6 +37,7 @@ y = ...: Creates the target variable y, which is the survived column. This is wh
 X['age'] = X['age'].fillna(...): Fills in missing values (NaN) in the 'age' column with the median age. This is a common strategy for handling missing data.
 X = pd.get_dummies(...): Converts the categorical 'sex' column into numerical format using one-hot encoding.
 drop_first=True: Creates sex_male as a new column, where 1 indicates male and 0 indicates female. This avoids multicollinearity. 
+
 4. Split the data
 python
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
