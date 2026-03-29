@@ -48,6 +48,7 @@ X_train and y_train: Used to train the model (80% of the data).
 X_test and y_test: Used to evaluate the model (20% of the data).
 test_size=0.2: Allocates 20% of the data to the test set.
 random_state=42: Ensures the split is consistent and reproducible each time the code is run. 
+
 5. Train the model
 python
 model = LogisticRegression()
