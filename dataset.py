@@ -23,6 +23,7 @@ tfds.load('titanic', ...): Downloads and loads the Titanic dataset from TensorFl
 split='train': Specifies that only the training split of the dataset should be loaded.
 with_info=True: Returns a tuple containing the dataset and its metadata.
 tfds.as_dataframe(dataset, info): Converts the TensorFlow dataset into a pandas DataFrame, making it easier to work with using familiar pandas functions. 
+
 3. Prepare features and target variable
 python
 X = df[['pclass', 'sex', 'age', 'sibsp', 'parch', 'fare']]
