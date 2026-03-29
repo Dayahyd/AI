@@ -12,6 +12,7 @@ Use code with caution.
 pandas: Used for data manipulation and analysis, primarily for creating and working with DataFrames.
 sklearn: The scikit-learn library, a popular tool for machine learning in Python.
 tensorflow_datasets: Provides a collection of ready-to-use datasets, including Titanic, which simplifies the data loading process. 
+
 2. Load and convert the dataset
 python
 dataset, info = tfds.load('titanic', split='train', with_info=True)
