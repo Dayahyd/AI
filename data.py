@@ -41,6 +41,7 @@ accuracy = accuracy_score(y_train, y_pred_train)
 
 # Calculate precision score on the training set.
 # 'weighted' is used for multiclass classification to account for class imbalance.
+
 precision = precision_score(y_train, y_pred_train, average='weighted')
 
 # Print the results
