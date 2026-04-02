@@ -7,6 +7,7 @@ from sklearn.datasets import load_wine
 
 # Step 1: Preparing the Features and Target Variable
 # Load the wine dataset
+
 wine_data = load_wine(as_frame=True)
 df = wine_data.frame
 
