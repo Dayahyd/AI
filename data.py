@@ -23,6 +23,7 @@ x_train, _, y_train, _ = train_test_split(x, y, test_size=0.2, random_state=42)
 
 # Step 3: Creating and Training the Bagging Classifier Model
 # Create a BaggingClassifier instance with random_state=1
+
 bagging_model = BaggingClassifier(random_state=1)
 
 # Fit the model to the training data
