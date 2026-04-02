@@ -12,6 +12,7 @@ wine_data = load_wine(as_frame=True)
 df = wine_data.frame
 
 # Assign features to x and target to y
+
 x = df.drop('target', axis=1)
 y = df['target']
 
