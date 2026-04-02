@@ -27,10 +27,12 @@ bagging_model.fit(x_train, y_train)
 
 # Step 4: Making Predictions on the Training Set
 # Predict on the training set
+
 y_pred_train = bagging_model.predict(x_train)
 
 # Step 5: Calculating Accuracy and Precision
 # Calculate accuracy score on the training set
+
 accuracy = accuracy_score(y_train, y_pred_train)
 
 # Calculate precision score on the training set.
@@ -38,5 +40,6 @@ accuracy = accuracy_score(y_train, y_pred_train)
 precision = precision_score(y_train, y_pred_train, average='weighted')
 
 # Print the results
+
 print("Accuracy on the training dataset:", accuracy)
 print("Precision on the training dataset:", precision)
