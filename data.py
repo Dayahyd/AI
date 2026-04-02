@@ -18,6 +18,7 @@ y = df['target']
 
 # Step 2: Splitting the Data into Training and Testing Sets
 # Split data with test_size=0.2 and random_state=42
+
 x_train, _, y_train, _ = train_test_split(x, y, test_size=0.2, random_state=42)
 
 # Step 3: Creating and Training the Bagging Classifier Model
